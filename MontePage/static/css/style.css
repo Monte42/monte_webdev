@@ -1,0 +1,137 @@
+.row{
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+#backg{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm0kIFj9tMKtHqMaLNDdP0TTAMSNmJJtx332lS6GYpiV5ohUew);
+}
+
+#jumbotron{margin-top: 30px;
+  border-radius: 75%;
+}
+
+#story{
+  background: #3c3c3d;
+  color: green;
+}
+
+.stry{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+#main_1,#main_2,#main_3{
+  color: white;
+}
+
+#main_1{
+  margin-top: 100px;
+}
+
+#main_2{
+  font-size: 20px;
+}
+
+#pic_1{
+  height: 300px;
+  width: 600px;
+}
+
+#main-pic-3{
+  height: 200px;
+  width: 400px;
+}
+
+#pro-list{
+  color: white;
+  font-size: 42px;
+}
+
+#pro-head{
+  color: #3361aa;
+  font-size: 42px;
+  background: rgba(58, 58, 58, .7);
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+#pro-over{
+  color: #dfbbed;
+}
+
+#pro-pic-4{
+  height: 400px;
+  width: 900px;
+  margin-bottom: 50px;
+}
+
+#history{
+  color: #3361aa;
+  font-size: 42px;
+  background: rgba(58, 58, 58, .7);
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+#his-overhead, #his-over{
+  color: #40ba21;
+  background: rgba(58, 58, 58, .7);
+  padding: 15px;
+}
+
+#his-over{
+  margin-bottom: 40px;
+}
+
+#his-list{
+  color: #dfbbed;
+  font-size: 32px;
+}
+
+#his-pic{
+  height: 400px;
+  width: 600px;
+  margin-bottom: 40px;
+}
+
+#his-sum{
+  color: white;
+}
+
+.c4head{
+  color: white;
+}
+
+#c4table{
+  margin-bottom: 20px;
+}
+
+.board button{
+  background-color: rgb(128, 128, 128);
+  width: 75px;
+  height: 75px;
+  border: 5px solid black;
+  border-radius: 50%
+}
+
+.ttc{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25YpoTltcvH05rE0L1EI9gUoOBErks7mwutfI5grmVZICkyk-sA");
+  padding-bottom: 50px;
+}
+
+.ttc-place{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border: 5px solid black;
+  font-size: 52px;
+  text-align: center;
+}
+
+#game_board{
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}

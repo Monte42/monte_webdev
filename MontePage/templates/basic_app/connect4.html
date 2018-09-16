@@ -1,0 +1,77 @@
+{% extends 'basic_app/base.html' %}
+{% block body_block %}
+{% load staticfiles %}
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <div class="container" align="center">
+    <h1 class="c4head">Welcon to Connect 4</h1>
+    <h4 class="c4head">As made by Gary Dumond</h4>
+    <p class="c4head">Player One please choose a column to drop your chip.</p>
+
+    <table id="c4table" class="board">
+      <tr>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+      </tr>
+      <tr>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+      </tr>
+      <tr>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+      </tr>
+      <tr>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+      </tr>
+      <tr>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+      </tr>
+      <tr>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+        <td><button type="button"</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <script src="{% static "Java/c4.js" %}"></script>
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+  </script>
+{% endblock %}

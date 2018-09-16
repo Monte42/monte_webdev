@@ -1,0 +1,36 @@
+{% extends 'basic_app/base.html' %}
+{% block body_block %}
+{% load staticfiles %}
+<div class="ttc">
+  <div class="container">
+    <body>
+      <div class="jumbotron">
+        <h2 class="display-1">Tic Tac Toe</h2>
+        <hr class="my-4">
+        <h4>Click once for X and double click for O</h4>
+        <a id="b" class="btn btn-primary btn-lg" href="{% url 'basic_app:tictactoe' %}" role="button">Restart</a>
+      </div>
+  </div>
+
+
+  <table id="game_board" align="center">
+    <tr>
+      <td class="ttc-place"></td>
+      <td class="ttc-place"></td>
+      <td class="ttc-place"></td>
+    </tr>
+    <tr>
+      <td class="ttc-place"></td>
+      <td class="ttc-place"></td>
+      <td class="ttc-place"></td>
+    </tr>
+    <tr>
+      <td class="ttc-place"></td>
+      <td class="ttc-place"></td>
+      <td class="ttc-place"></td>
+    </tr>
+  </table>
+
+    <script src="{% static "Java/ttcsmarter.js" %}"></script>
+</div>
+{% endblock %}

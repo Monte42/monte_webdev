@@ -1,0 +1,30 @@
+{% extends 'basic_app/base.html' %}
+{% block body_block %}
+<div align="center">
+  <h1 id="pro-head">My Projects</h1>
+</div>
+<div class="row">
+  <div id="pro-over" class="col-lg-6 offset-lg-1"><h4>On this page you can find projects that I have
+    done. This way you can see the kind of things that I am capable of doing.
+    Also this way you can see the directoin I am moving in.  If you have an idea
+    of something that you think I might be able to do I would love the challenge.
+    You can find my contact links in the navigation bar on the top of this page.</h4>
+  </div>
+  <div id="pro-pic-1" class="col-lg-3 offset-lg-2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbpBwCSnTPZqFfoXqWRAuhYob4E5h-V9O0DpHLpnNDBvnskXHF" alt="Sorry, It seems this image has been removed"></div>
+</div>
+<div class="row">
+  <div id="pro-pic-2" class="col-lg-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYiVVZ9Sn1MkKZF6MVTTYFcIgKGCuNOZlgtjZO5OrTEjkKCbZ58A" alt="Sorry, It seems this image has been removed"></div>
+  <div id="pro-list" class="col-lg-4">
+    <ul>
+      <li><a href="{% url 'index' %}">This site</a></li>
+      <li><a href="{% url 'basic_app:connectfour' %}">Connect Four</a></li>
+      <li><a href="{% url 'basic_app:tictactoe' %}">Tis Tac Toe</a></li>
+    </ul>
+  </div>
+  <div id="pro-pic-3" class="col-lg-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIEZTx-30HBIY_wGcP68MYZvncxxelzKpMJRaL06Qv9Dy6-uSj" alt="Sorry, It seems this image has been removed"></div>
+</div>
+<div class="container" align=center>
+  <img id="pro-pic-4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3lb0bJQMySijxxsdEjmn55ED-_hly6vQIiP3oJVy-2v-H-9eUAg" alt="Sorry, It seems this image has been removed">
+</div>
+
+{% endblock %}
